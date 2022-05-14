@@ -1,5 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap");
+
+html {
+  font-size: 16px;
+}
+
 body {
-   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ordissinaute.fr%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fdiaporama_slide%2Fpublic%2Fdiaporama_images%2FPont-Rialto.jpg%3Fitok%3DHm22-oAM&f=1&nofb=1);
-font-family: Oleo Script Swash Caps;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ordissinaute.fr%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fdiaporama_slide%2Fpublic%2Fdiaporama_images%2FPont-Rialto.jpg%3Fitok%3DHm22-oAM&f=1&nofb=1);
+  font-family: "Oleo Script Swash Caps";
+}
+img {
+  width: 100%;
+}
+
+.elButtonRetourPagePrincipale {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .elButtonRetourPagePrincipale {
+    display: block;
+  }
 }
